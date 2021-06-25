@@ -1,0 +1,74 @@
+:root{
+    --vermelho: #DB202C;
+    --preta:#141414;
+}
+
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Receita principal*/
+
+body{
+    background: var(--preta);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Vegan Style Personal Use', sans-serif;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    padding: 5px !Important;
+    background: none 0px 0px repeat scroll rgb(104, 104, 104);
+    box-shadow: rgb(146, 150, 153) 0px 0px 4px inset;
+    outline-width: medium;
+    outline-style: none;
+    outline-color: initial;
+    padding: 12px 12px 10px;;
+
+}
+
+/*Receita principal*/
+
+.receita-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/Capa-bolo-cenoura.png');
+
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.receita-principal .descricao{
+    margin-bottom: 40px;
+}
+
+.titulo{
+    font-size: 40px;
+}
